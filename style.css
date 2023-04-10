@@ -141,7 +141,6 @@ p{
     font-size: 15px;
 }
 .btn-mail{
-    
     padding:20px 40px;
     background-color: #FF33B2;
     color: white;
@@ -152,7 +151,11 @@ p{
 .btn-mail p{
     font-size: 12px;
 }
+
 footer p{
     text-align: center;
     font-size: 8px;
+}
+.btn-mail p,h2{
+    padding-right: 15px;
 }
