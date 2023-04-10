@@ -1,5 +1,5 @@
 *{
-    margin: 0; pad: 0;
+    margin: 0; padding: 0;
 }
 .top-banner{
     background-image: url("header-bg.png");
@@ -43,6 +43,9 @@ p{
     padding-top: 3%;
 }
 @media(max-width:700px){
+    .top-banner{
+        height: 50vh;
+    }
     h1{
         font-size: 18px;
         padding-bottom: 15px;
@@ -58,4 +61,94 @@ p{
         width: 100%;
         padding-top: 10%;
     }
+}
+.middle-banner{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@media(max-width:700px){
+    .middle-banner{
+        height: 50vh;
+    }
+
+}
+.service-banner{
+    background-image: url("latest-work-bg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 70px 0;
+}
+.srvice-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.half-work{
+    flex-basis: 30%;
+}
+.half-work img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    float: left;
+    border: px solid red;
+
+}
+.half-work h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+@media(max-width:700px){
+    .srvice-box{
+        flex-direction: column;
+    }
+    .half-work img{
+        width: 80%;
+        border-radius: 5px;
+        margin: auto;
+        padding-left: 25px;
+    }
+    }
+
+.cotnact-area{
+    background-image: url("image/footer-bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 70px 0;
+} 
+.contact-box{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}   
+.ayan-com h1{
+    margin-bottom: 20px;
+
+}
+.ayan-com p{
+    font-size: 15px;
+}
+.btn-mail{
+    
+    padding:20px 30px;
+    font-weight: bold;
+    background-color: #FF33B2;
+    color: white;
+    border-radius: 20px;
+    
+    
+}
+.btn-mail p{
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
 }
